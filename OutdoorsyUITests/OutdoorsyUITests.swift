@@ -2,7 +2,7 @@
 //  OutdoorsyUITests.swift
 //  OutdoorsyUITests
 //
-//  Created by Guest on 12.11.22.
+//  Created by hristoathristov
 //
 
 import XCTest

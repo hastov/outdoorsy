@@ -1,0 +1,6 @@
+framework module Pods_Outdoorsy {
+  umbrella header "Pods-Outdoorsy-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -2,7 +2,7 @@
 //  SceneDelegate.swift
 //  Outdoorsy
 //
-//  Created by Guest on 12.11.22.
+//  Created by hristoathristov
 //
 
 import UIKit
@@ -18,9 +18,8 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // This delegate does not imply the connecting scene or session are new (see `application:configurationForConnectingSceneSession` instead).
         guard let _ = (scene as? UIWindowScene) else { return }
         
-//        if let nav = window?.rootViewController as? UINavigationController,
-        if
-        let vc = window?.rootViewController as? ViewController {
+        if let nav = window?.rootViewController as? UINavigationController,
+           let vc = nav.viewControllers.first as? ViewController {
             vc.service = DataManager(api: OutdoorsyAPI())
         }
     }

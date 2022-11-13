@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 55;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2120005529215DE400B79E78 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2120005429215DE400B79E78 /* DataManager.swift */; };
 		218A4254291F7F65001E6D3F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 218A4253291F7F65001E6D3F /* AppDelegate.swift */; };
 		218A4256291F7F65001E6D3F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 218A4255291F7F65001E6D3F /* SceneDelegate.swift */; };
 		218A4258291F7F65001E6D3F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 218A4257291F7F65001E6D3F /* ViewController.swift */; };
@@ -18,6 +19,10 @@
 		218A4277291F7F68001E6D3F /* OutdoorsyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 218A4276291F7F68001E6D3F /* OutdoorsyUITestsLaunchTests.swift */; };
 		218A4284291F84C8001E6D3F /* ListingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 218A4283291F84C8001E6D3F /* ListingTableViewCell.swift */; };
 		218A4286291F8554001E6D3F /* DataRetrieving.swift in Sources */ = {isa = PBXBuildFile; fileRef = 218A4285291F8554001E6D3F /* DataRetrieving.swift */; };
+		218A42882920EEF2001E6D3F /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 218A42872920EEF2001E6D3F /* Extensions.swift */; };
+		5541D76128C4FE3FA5FB6A6C /* Pods_OutdoorsyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E4B7E6D4FE088371D35DE05 /* Pods_OutdoorsyTests.framework */; };
+		7D01C1E53D38CAEBD4C419E5 /* Pods_Outdoorsy_OutdoorsyUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A19D2986D5EDBDF8AF877A6 /* Pods_Outdoorsy_OutdoorsyUITests.framework */; };
+		B6CBC7A695B5393A9BE2E72E /* Pods_Outdoorsy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3697CE35E48FCCFEAB2C1CF7 /* Pods_Outdoorsy.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +43,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2120005429215DE400B79E78 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 		218A4250291F7F65001E6D3F /* Outdoorsy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Outdoorsy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		218A4253291F7F65001E6D3F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		218A4255291F7F65001E6D3F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -53,6 +59,16 @@
 		218A4276291F7F68001E6D3F /* OutdoorsyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutdoorsyUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		218A4283291F84C8001E6D3F /* ListingTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListingTableViewCell.swift; sourceTree = "<group>"; };
 		218A4285291F8554001E6D3F /* DataRetrieving.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataRetrieving.swift; sourceTree = "<group>"; };
+		218A42872920EEF2001E6D3F /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		3697CE35E48FCCFEAB2C1CF7 /* Pods_Outdoorsy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Outdoorsy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		43D7900ED388827977D51BF7 /* Pods-Outdoorsy-OutdoorsyUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Outdoorsy-OutdoorsyUITests.release.xcconfig"; path = "Target Support Files/Pods-Outdoorsy-OutdoorsyUITests/Pods-Outdoorsy-OutdoorsyUITests.release.xcconfig"; sourceTree = "<group>"; };
+		5A19D2986D5EDBDF8AF877A6 /* Pods_Outdoorsy_OutdoorsyUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Outdoorsy_OutdoorsyUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E4B7E6D4FE088371D35DE05 /* Pods_OutdoorsyTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OutdoorsyTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AE05C90B24D2BA00F3D22A7 /* Pods-OutdoorsyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OutdoorsyTests.debug.xcconfig"; path = "Target Support Files/Pods-OutdoorsyTests/Pods-OutdoorsyTests.debug.xcconfig"; sourceTree = "<group>"; };
+		AF817AA1D2EECA506629CEDD /* Pods-Outdoorsy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Outdoorsy.debug.xcconfig"; path = "Target Support Files/Pods-Outdoorsy/Pods-Outdoorsy.debug.xcconfig"; sourceTree = "<group>"; };
+		B4B35A5A4D52FBB050CF32BF /* Pods-Outdoorsy-OutdoorsyUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Outdoorsy-OutdoorsyUITests.debug.xcconfig"; path = "Target Support Files/Pods-Outdoorsy-OutdoorsyUITests/Pods-Outdoorsy-OutdoorsyUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		DB7D41E7870722A3E5FF6DFB /* Pods-Outdoorsy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Outdoorsy.release.xcconfig"; path = "Target Support Files/Pods-Outdoorsy/Pods-Outdoorsy.release.xcconfig"; sourceTree = "<group>"; };
+		FF5DC7E9DD68D6EE054A14B2 /* Pods-OutdoorsyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OutdoorsyTests.release.xcconfig"; path = "Target Support Files/Pods-OutdoorsyTests/Pods-OutdoorsyTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B6CBC7A695B5393A9BE2E72E /* Pods_Outdoorsy.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5541D76128C4FE3FA5FB6A6C /* Pods_OutdoorsyTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D01C1E53D38CAEBD4C419E5 /* Pods_Outdoorsy_OutdoorsyUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,6 +106,8 @@
 				218A4269291F7F68001E6D3F /* OutdoorsyTests */,
 				218A4273291F7F68001E6D3F /* OutdoorsyUITests */,
 				218A4251291F7F65001E6D3F /* Products */,
+				4FF87640A249AA454DAA5A3C /* Pods */,
+				FC52A3DC05B78E4EDEA03342 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -104,13 +125,10 @@
 			isa = PBXGroup;
 			children = (
 				218A4253291F7F65001E6D3F /* AppDelegate.swift */,
+				218A42892920F1EA001E6D3F /* Models */,
 				218A4255291F7F65001E6D3F /* SceneDelegate.swift */,
-				218A4257291F7F65001E6D3F /* ViewController.swift */,
-				218A4283291F84C8001E6D3F /* ListingTableViewCell.swift */,
-				218A4259291F7F65001E6D3F /* Main.storyboard */,
-				218A425C291F7F68001E6D3F /* Assets.xcassets */,
-				218A425E291F7F68001E6D3F /* LaunchScreen.storyboard */,
-				218A4285291F8554001E6D3F /* DataRetrieving.swift */,
+				218A428A2920F201001E6D3F /* Views */,
+				218A42872920EEF2001E6D3F /* Extensions.swift */,
 				218A4261291F7F68001E6D3F /* Info.plist */,
 			);
 			path = Outdoorsy;
@@ -133,6 +151,50 @@
 			path = OutdoorsyUITests;
 			sourceTree = "<group>";
 		};
+		218A42892920F1EA001E6D3F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				218A4285291F8554001E6D3F /* DataRetrieving.swift */,
+				2120005429215DE400B79E78 /* DataManager.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		218A428A2920F201001E6D3F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				218A425C291F7F68001E6D3F /* Assets.xcassets */,
+				218A425E291F7F68001E6D3F /* LaunchScreen.storyboard */,
+				218A4259291F7F65001E6D3F /* Main.storyboard */,
+				218A4257291F7F65001E6D3F /* ViewController.swift */,
+				218A4283291F84C8001E6D3F /* ListingTableViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4FF87640A249AA454DAA5A3C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AF817AA1D2EECA506629CEDD /* Pods-Outdoorsy.debug.xcconfig */,
+				DB7D41E7870722A3E5FF6DFB /* Pods-Outdoorsy.release.xcconfig */,
+				B4B35A5A4D52FBB050CF32BF /* Pods-Outdoorsy-OutdoorsyUITests.debug.xcconfig */,
+				43D7900ED388827977D51BF7 /* Pods-Outdoorsy-OutdoorsyUITests.release.xcconfig */,
+				9AE05C90B24D2BA00F3D22A7 /* Pods-OutdoorsyTests.debug.xcconfig */,
+				FF5DC7E9DD68D6EE054A14B2 /* Pods-OutdoorsyTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		FC52A3DC05B78E4EDEA03342 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3697CE35E48FCCFEAB2C1CF7 /* Pods_Outdoorsy.framework */,
+				5A19D2986D5EDBDF8AF877A6 /* Pods_Outdoorsy_OutdoorsyUITests.framework */,
+				5E4B7E6D4FE088371D35DE05 /* Pods_OutdoorsyTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -140,9 +202,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 218A427A291F7F68001E6D3F /* Build configuration list for PBXNativeTarget "Outdoorsy" */;
 			buildPhases = (
+				00E9F43BEBE38EE4867701F7 /* [CP] Check Pods Manifest.lock */,
 				218A424C291F7F65001E6D3F /* Sources */,
 				218A424D291F7F65001E6D3F /* Frameworks */,
 				218A424E291F7F65001E6D3F /* Resources */,
+				D398DE8C7D4C09A995E76272 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -157,6 +221,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 218A427D291F7F68001E6D3F /* Build configuration list for PBXNativeTarget "OutdoorsyTests" */;
 			buildPhases = (
+				1539058409A49E2CF80ED736 /* [CP] Check Pods Manifest.lock */,
 				218A4262291F7F68001E6D3F /* Sources */,
 				218A4263291F7F68001E6D3F /* Frameworks */,
 				218A4264291F7F68001E6D3F /* Resources */,
@@ -175,9 +240,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 218A4280291F7F68001E6D3F /* Build configuration list for PBXNativeTarget "OutdoorsyUITests" */;
 			buildPhases = (
+				19FD8F862A8A7A44B352035F /* [CP] Check Pods Manifest.lock */,
 				218A426C291F7F68001E6D3F /* Sources */,
 				218A426D291F7F68001E6D3F /* Frameworks */,
 				218A426E291F7F68001E6D3F /* Resources */,
+				53F6FAAA0B0236218690F158 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -213,7 +280,7 @@
 				};
 			};
 			buildConfigurationList = 218A424B291F7F65001E6D3F /* Build configuration list for PBXProject "Outdoorsy" */;
-			compatibilityVersion = "Xcode 14.0";
+			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -259,13 +326,118 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		00E9F43BEBE38EE4867701F7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Outdoorsy-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1539058409A49E2CF80ED736 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OutdoorsyTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		19FD8F862A8A7A44B352035F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Outdoorsy-OutdoorsyUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		53F6FAAA0B0236218690F158 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Outdoorsy-OutdoorsyUITests/Pods-Outdoorsy-OutdoorsyUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Outdoorsy-OutdoorsyUITests/Pods-Outdoorsy-OutdoorsyUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Outdoorsy-OutdoorsyUITests/Pods-Outdoorsy-OutdoorsyUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D398DE8C7D4C09A995E76272 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Outdoorsy/Pods-Outdoorsy-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Outdoorsy/Pods-Outdoorsy-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Outdoorsy/Pods-Outdoorsy-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		218A424C291F7F65001E6D3F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				218A4286291F8554001E6D3F /* DataRetrieving.swift in Sources */,
+				218A42882920EEF2001E6D3F /* Extensions.swift in Sources */,
 				218A4258291F7F65001E6D3F /* ViewController.swift in Sources */,
+				2120005529215DE400B79E78 /* DataManager.swift in Sources */,
 				218A4254291F7F65001E6D3F /* AppDelegate.swift in Sources */,
 				218A4284291F84C8001E6D3F /* ListingTableViewCell.swift in Sources */,
 				218A4256291F7F65001E6D3F /* SceneDelegate.swift in Sources */,
@@ -440,6 +612,7 @@
 		};
 		218A427B291F7F68001E6D3F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF817AA1D2EECA506629CEDD /* Pods-Outdoorsy.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -451,7 +624,7 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.7;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -470,6 +643,7 @@
 		};
 		218A427C291F7F68001E6D3F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB7D41E7870722A3E5FF6DFB /* Pods-Outdoorsy.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -481,7 +655,7 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.7;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -500,6 +674,7 @@
 		};
 		218A427E291F7F68001E6D3F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9AE05C90B24D2BA00F3D22A7 /* Pods-OutdoorsyTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -519,6 +694,7 @@
 		};
 		218A427F291F7F68001E6D3F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF5DC7E9DD68D6EE054A14B2 /* Pods-OutdoorsyTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -538,6 +714,7 @@
 		};
 		218A4281291F7F68001E6D3F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B4B35A5A4D52FBB050CF32BF /* Pods-Outdoorsy-OutdoorsyUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -555,6 +732,7 @@
 		};
 		218A4282291F7F68001E6D3F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43D7900ED388827977D51BF7 /* Pods-Outdoorsy-OutdoorsyUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

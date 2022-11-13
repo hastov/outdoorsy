@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  Outdoorsy
 //
-//  Created by Guest on 12.11.22.
+//  Created by hristoathristov
 //
 
 import UIKit
