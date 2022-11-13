@@ -1,0 +1,615 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		218A4254291F7F65001E6D3F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 218A4253291F7F65001E6D3F /* AppDelegate.swift */; };
+		218A4256291F7F65001E6D3F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 218A4255291F7F65001E6D3F /* SceneDelegate.swift */; };
+		218A4258291F7F65001E6D3F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 218A4257291F7F65001E6D3F /* ViewController.swift */; };
+		218A425B291F7F65001E6D3F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 218A4259291F7F65001E6D3F /* Main.storyboard */; };
+		218A425D291F7F68001E6D3F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 218A425C291F7F68001E6D3F /* Assets.xcassets */; };
+		218A4260291F7F68001E6D3F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 218A425E291F7F68001E6D3F /* LaunchScreen.storyboard */; };
+		218A426B291F7F68001E6D3F /* OutdoorsyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 218A426A291F7F68001E6D3F /* OutdoorsyTests.swift */; };
+		218A4275291F7F68001E6D3F /* OutdoorsyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 218A4274291F7F68001E6D3F /* OutdoorsyUITests.swift */; };
+		218A4277291F7F68001E6D3F /* OutdoorsyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 218A4276291F7F68001E6D3F /* OutdoorsyUITestsLaunchTests.swift */; };
+		218A4284291F84C8001E6D3F /* ListingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 218A4283291F84C8001E6D3F /* ListingTableViewCell.swift */; };
+		218A4286291F8554001E6D3F /* DataRetrieving.swift in Sources */ = {isa = PBXBuildFile; fileRef = 218A4285291F8554001E6D3F /* DataRetrieving.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		218A4267291F7F68001E6D3F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 218A4248291F7F65001E6D3F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 218A424F291F7F65001E6D3F;
+			remoteInfo = Outdoorsy;
+		};
+		218A4271291F7F68001E6D3F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 218A4248291F7F65001E6D3F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 218A424F291F7F65001E6D3F;
+			remoteInfo = Outdoorsy;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		218A4250291F7F65001E6D3F /* Outdoorsy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Outdoorsy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		218A4253291F7F65001E6D3F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		218A4255291F7F65001E6D3F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		218A4257291F7F65001E6D3F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		218A425A291F7F65001E6D3F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		218A425C291F7F68001E6D3F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		218A425F291F7F68001E6D3F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		218A4261291F7F68001E6D3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		218A4266291F7F68001E6D3F /* OutdoorsyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OutdoorsyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		218A426A291F7F68001E6D3F /* OutdoorsyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutdoorsyTests.swift; sourceTree = "<group>"; };
+		218A4270291F7F68001E6D3F /* OutdoorsyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OutdoorsyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		218A4274291F7F68001E6D3F /* OutdoorsyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutdoorsyUITests.swift; sourceTree = "<group>"; };
+		218A4276291F7F68001E6D3F /* OutdoorsyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutdoorsyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		218A4283291F84C8001E6D3F /* ListingTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListingTableViewCell.swift; sourceTree = "<group>"; };
+		218A4285291F8554001E6D3F /* DataRetrieving.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataRetrieving.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		218A424D291F7F65001E6D3F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		218A4263291F7F68001E6D3F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		218A426D291F7F68001E6D3F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		218A4247291F7F65001E6D3F = {
+			isa = PBXGroup;
+			children = (
+				218A4252291F7F65001E6D3F /* Outdoorsy */,
+				218A4269291F7F68001E6D3F /* OutdoorsyTests */,
+				218A4273291F7F68001E6D3F /* OutdoorsyUITests */,
+				218A4251291F7F65001E6D3F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		218A4251291F7F65001E6D3F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				218A4250291F7F65001E6D3F /* Outdoorsy.app */,
+				218A4266291F7F68001E6D3F /* OutdoorsyTests.xctest */,
+				218A4270291F7F68001E6D3F /* OutdoorsyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		218A4252291F7F65001E6D3F /* Outdoorsy */ = {
+			isa = PBXGroup;
+			children = (
+				218A4253291F7F65001E6D3F /* AppDelegate.swift */,
+				218A4255291F7F65001E6D3F /* SceneDelegate.swift */,
+				218A4257291F7F65001E6D3F /* ViewController.swift */,
+				218A4283291F84C8001E6D3F /* ListingTableViewCell.swift */,
+				218A4259291F7F65001E6D3F /* Main.storyboard */,
+				218A425C291F7F68001E6D3F /* Assets.xcassets */,
+				218A425E291F7F68001E6D3F /* LaunchScreen.storyboard */,
+				218A4285291F8554001E6D3F /* DataRetrieving.swift */,
+				218A4261291F7F68001E6D3F /* Info.plist */,
+			);
+			path = Outdoorsy;
+			sourceTree = "<group>";
+		};
+		218A4269291F7F68001E6D3F /* OutdoorsyTests */ = {
+			isa = PBXGroup;
+			children = (
+				218A426A291F7F68001E6D3F /* OutdoorsyTests.swift */,
+			);
+			path = OutdoorsyTests;
+			sourceTree = "<group>";
+		};
+		218A4273291F7F68001E6D3F /* OutdoorsyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				218A4274291F7F68001E6D3F /* OutdoorsyUITests.swift */,
+				218A4276291F7F68001E6D3F /* OutdoorsyUITestsLaunchTests.swift */,
+			);
+			path = OutdoorsyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		218A424F291F7F65001E6D3F /* Outdoorsy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 218A427A291F7F68001E6D3F /* Build configuration list for PBXNativeTarget "Outdoorsy" */;
+			buildPhases = (
+				218A424C291F7F65001E6D3F /* Sources */,
+				218A424D291F7F65001E6D3F /* Frameworks */,
+				218A424E291F7F65001E6D3F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Outdoorsy;
+			productName = Outdoorsy;
+			productReference = 218A4250291F7F65001E6D3F /* Outdoorsy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		218A4265291F7F68001E6D3F /* OutdoorsyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 218A427D291F7F68001E6D3F /* Build configuration list for PBXNativeTarget "OutdoorsyTests" */;
+			buildPhases = (
+				218A4262291F7F68001E6D3F /* Sources */,
+				218A4263291F7F68001E6D3F /* Frameworks */,
+				218A4264291F7F68001E6D3F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				218A4268291F7F68001E6D3F /* PBXTargetDependency */,
+			);
+			name = OutdoorsyTests;
+			productName = OutdoorsyTests;
+			productReference = 218A4266291F7F68001E6D3F /* OutdoorsyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		218A426F291F7F68001E6D3F /* OutdoorsyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 218A4280291F7F68001E6D3F /* Build configuration list for PBXNativeTarget "OutdoorsyUITests" */;
+			buildPhases = (
+				218A426C291F7F68001E6D3F /* Sources */,
+				218A426D291F7F68001E6D3F /* Frameworks */,
+				218A426E291F7F68001E6D3F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				218A4272291F7F68001E6D3F /* PBXTargetDependency */,
+			);
+			name = OutdoorsyUITests;
+			productName = OutdoorsyUITests;
+			productReference = 218A4270291F7F68001E6D3F /* OutdoorsyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		218A4248291F7F65001E6D3F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					218A424F291F7F65001E6D3F = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					218A4265291F7F68001E6D3F = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 218A424F291F7F65001E6D3F;
+					};
+					218A426F291F7F68001E6D3F = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 218A424F291F7F65001E6D3F;
+					};
+				};
+			};
+			buildConfigurationList = 218A424B291F7F65001E6D3F /* Build configuration list for PBXProject "Outdoorsy" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 218A4247291F7F65001E6D3F;
+			productRefGroup = 218A4251291F7F65001E6D3F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				218A424F291F7F65001E6D3F /* Outdoorsy */,
+				218A4265291F7F68001E6D3F /* OutdoorsyTests */,
+				218A426F291F7F68001E6D3F /* OutdoorsyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		218A424E291F7F65001E6D3F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				218A4260291F7F68001E6D3F /* LaunchScreen.storyboard in Resources */,
+				218A425D291F7F68001E6D3F /* Assets.xcassets in Resources */,
+				218A425B291F7F65001E6D3F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		218A4264291F7F68001E6D3F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		218A426E291F7F68001E6D3F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		218A424C291F7F65001E6D3F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				218A4286291F8554001E6D3F /* DataRetrieving.swift in Sources */,
+				218A4258291F7F65001E6D3F /* ViewController.swift in Sources */,
+				218A4254291F7F65001E6D3F /* AppDelegate.swift in Sources */,
+				218A4284291F84C8001E6D3F /* ListingTableViewCell.swift in Sources */,
+				218A4256291F7F65001E6D3F /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		218A4262291F7F68001E6D3F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				218A426B291F7F68001E6D3F /* OutdoorsyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		218A426C291F7F68001E6D3F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				218A4275291F7F68001E6D3F /* OutdoorsyUITests.swift in Sources */,
+				218A4277291F7F68001E6D3F /* OutdoorsyUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		218A4268291F7F68001E6D3F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 218A424F291F7F65001E6D3F /* Outdoorsy */;
+			targetProxy = 218A4267291F7F68001E6D3F /* PBXContainerItemProxy */;
+		};
+		218A4272291F7F68001E6D3F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 218A424F291F7F65001E6D3F /* Outdoorsy */;
+			targetProxy = 218A4271291F7F68001E6D3F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		218A4259291F7F65001E6D3F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				218A425A291F7F65001E6D3F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		218A425E291F7F68001E6D3F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				218A425F291F7F68001E6D3F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		218A4278291F7F68001E6D3F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		218A4279291F7F68001E6D3F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		218A427B291F7F68001E6D3F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Outdoorsy/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.7;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = co.outdoorsy.Outdoorsy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		218A427C291F7F68001E6D3F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Outdoorsy/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.7;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = co.outdoorsy.Outdoorsy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		218A427E291F7F68001E6D3F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = co.outdoorsy.OutdoorsyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Outdoorsy.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Outdoorsy";
+			};
+			name = Debug;
+		};
+		218A427F291F7F68001E6D3F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = co.outdoorsy.OutdoorsyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Outdoorsy.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Outdoorsy";
+			};
+			name = Release;
+		};
+		218A4281291F7F68001E6D3F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = co.outdoorsy.OutdoorsyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Outdoorsy;
+			};
+			name = Debug;
+		};
+		218A4282291F7F68001E6D3F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = co.outdoorsy.OutdoorsyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Outdoorsy;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		218A424B291F7F65001E6D3F /* Build configuration list for PBXProject "Outdoorsy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				218A4278291F7F68001E6D3F /* Debug */,
+				218A4279291F7F68001E6D3F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		218A427A291F7F68001E6D3F /* Build configuration list for PBXNativeTarget "Outdoorsy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				218A427B291F7F68001E6D3F /* Debug */,
+				218A427C291F7F68001E6D3F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		218A427D291F7F68001E6D3F /* Build configuration list for PBXNativeTarget "OutdoorsyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				218A427E291F7F68001E6D3F /* Debug */,
+				218A427F291F7F68001E6D3F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		218A4280291F7F68001E6D3F /* Build configuration list for PBXNativeTarget "OutdoorsyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				218A4281291F7F68001E6D3F /* Debug */,
+				218A4282291F7F68001E6D3F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 218A4248291F7F65001E6D3F /* Project object */;
+}
